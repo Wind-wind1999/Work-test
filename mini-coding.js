@@ -7,7 +7,7 @@ let rl = readline.createInterface({
 
 function ques() {
 	rl.question('请输入[2-9]任意数字或组合：',function(res){
-		if (res == "exit") {
+		if (res == "exit") {//关闭
 			rl.close();
 		}
 		combin(res);
